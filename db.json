@@ -1,0 +1,68 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "The Catcher in the Rye",
+      "price": 23.50,
+      "image": "./bookRed.svg",
+      "author": "J. D. Salinger",
+      "includeDate": "02/08/2022"
+    },
+    {
+      "id": 2,
+      "name": "Someone Like You",
+      "price": 15.55,
+      "image": "./bookWhite.svg",
+      "author": "Roald Dahl",
+      "includeDate": "03/08/2022"
+    },
+    {
+      "id": 3,
+      "name": "Lord of the Rings",
+      "price": 53.75,
+      "image": "./bookLordRings.svg",
+      "author": "J. R. R. Tolkien",
+      "includeDate": "04/08/2022"
+    },
+    {
+      "id": 4,
+      "name": "My Sister's Keeper",
+      "price": 34.20,
+      "image": "./bookBlue.svg",
+      "author": "Jodi Picoult",
+      "includeDate": "05/08/2022"
+    },
+    {
+      "id": 5,
+      "name": "Great Expectations",
+      "price": 17.86,
+      "image": "./bookGreat.svg",
+      "author": "Charles Dickens",
+      "includeDate": "06/08/2022"
+    },
+    {
+      "id": 6,
+      "name": "What I Learned from the Trees",
+      "price": 27.40,
+      "image": "./bookDark.svg",
+      "author": "L. E. Bowman",
+      "includeDate": "07/08/2022"
+    },
+    {
+      "id": 7,
+      "name": "Thief River Falls",
+      "price": 46.20,
+      "image": "./bookThief.svg",
+      "author": "Brian Freeman",
+      "includeDate": "08/08/2022"
+    },
+    {
+      "id": 8,
+      "name": "If It Bleeds",
+      "price": 38.80,
+      "image": "./bookCat.svg",
+      "author": "Stephen King",
+      "includeDate": "09/08/2022"
+    }
+  ]
+}
