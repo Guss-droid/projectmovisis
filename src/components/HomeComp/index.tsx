@@ -84,21 +84,17 @@ export function HomeComp() {
   }
 
   function orderBooksByPrice() {
-    setProducts(oldProducts => {
-      return oldProducts.sort((a, b) => {
-        return a.price - b.price
-      })
-    })
+    const newProducts = [...products];
+    setProducts(newProducts.sort((a, b) => b.price - a.price));
   }
 
   function orderBooksByDate() {
-    setProducts(oldProducts => {
-      return oldProducts.sort((a, b) => {
-        if (a.includeDate > b.includeDate) return 1
-        if (a.includeDate < b.includeDate) return -1
-        return 0
-      })
-    })
+    const newProducts = [...products];
+    setProducts(newProducts.sort((a, b) => {
+      if (a.includeDate > b.includeDate) return 1
+      if (a.includeDate < b.includeDate) return -1
+      return 0
+    }));
   }
 
   return (
