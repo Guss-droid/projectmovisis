@@ -64,7 +64,7 @@ export function HomeComp() {
   async function searchBooks(e: FormEvent) {
     e.preventDefault()
     try {
-      const res = await api.get<IBooksData[]>(`/books?name=${search}`)
+      const res = await api.get<IBooksData[]>(`/books?q=${search}`)
 
       const newBooks = res.data.map(books => ({
         ...books,
